@@ -1,0 +1,32 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+h1 {font-family: "Monoton", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+body {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+body{background: rgb(8,0,36);
+    background: linear-gradient(90deg, rgba(8,0,36,1) 0%, rgba(53,9,121,1) 45%, rgb(101, 39, 143) 100%);
+    text-align: center;}
+
+    a {font-size: 80px;
+    color: beige;}
